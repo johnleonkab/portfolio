@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Engineer & Entrepreneur</title>
+    <meta name="description" content="Portfolio of an Engineer and Entrepreneur specializing in technology, product, and business.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="background-gradient"></div>
+    
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="#" class="logo">PORTFOLIO<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#timeline">Journey</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i data-lucide="sun"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero / Executive Summary -->
+        <section id="about" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge">Engineer & Entrepreneur</span>
+                    <h1>Building scalable technology to solve complex business problems.</h1>
+                    <p class="lead">
+                        Specialist at the intersection of technological development, product strategy, and business profitability (P&L).
+                        From founding EdTech startups to leading the financial turnaround of a ticketing subsidiary and deploying AI solutions for over 5,000 enterprise clients.
+                    </p>
+                    <div class="hero-stats glass">
+                        <div class="stat">
+                            <span class="number">1.4M€</span>
+                            <span class="label">Revenue Led</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">30k+</span>
+                            <span class="label">Enterprise Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">x2</span>
+                            <span class="label">Revenue Growth</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-profile-img">
+                    <!-- User Profile Photo -->
+                    <img src="pcut.png" alt="Profile Photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- History & Evolution -->
+        <section id="timeline" class="timeline-section">
+            <div class="container">
+                <h2 class="section-title">History & Evolution <span class="accent">From Curiosity to Impact</span></h2>
+                
+                <div class="timeline">
+                    <!-- Stage 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot green"></div>
+                        <div class="timeline-content glass">
+                            <span class="date">2020 - 2021</span>
+                            <h3>Inception & Self-Taught</h3>
+                            <p class="context">COVID-19 Pandemic, High School, and an unmet need.</p>
+                            <p>
+                                At 17, I identified a critical need to digitize access to university entrance exam resources. 
+                                I learned Full Stack development from scratch to launch <strong>Neovinci</strong>, a collaborative platform that is still active today.
+                            </p>
+                            <div class="tags">
+                                <span>PHP</span>
+                                <span>JS</span>
+                                <span>Full Stack</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stage 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot yellow"></div>
+                        <div class="timeline-content glass">
+                            <span class="date">2022 - 2024</span>
+                            <h3>Entrepreneurship & Validation</h3>
+                            <p class="context">Mechanical Engineering, post-pandemic boom, and company creation.</p>
+                            <p>
+                                Co-founded <strong>BoomTickets</strong> as CTO. Validated the product in Southern Spain and expanded to Portugal.
+                                Achieved such traction that we attracted interest from <strong>CoverManager</strong>, leading to a strategic merger.
+                            </p>
+                            <div class="tags">
+                                <span>CTO</span>
+                                <span>Startup</span>
+                                <span>Strategy</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stage 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot red"></div>
+                        <div class="timeline-content glass">
+                            <span class="date">2024 - Present</span>
+                            <h3>Scaling & Leadership</h3>
+                            <p class="context">Joining CoverManager, crisis management, and AI leadership.</p>
+                            <div class="sub-section">
+                                <h4>Financial Turnaround</h4>
+                                <p>Transformed a ticketing subsidiary from losses (-90k€/month) to 1.4M€ annual revenue in 18 months.</p>
+                            </div>
+                            <div class="sub-section">
+                                <h4>Data & AI Leadership</h4>
+                                <p>Developed an AI product used by over 5,000 clients. Leading Reporting & Data Infrastructure and AI Product teams.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stage 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot blue"></div>
+                        <div class="timeline-content glass">
+                            <span class="date">Future</span>
+                            <h3>Serial Entrepreneurship</h3>
+                            <p class="context">Project HMN in development.</p>
+                            <p>
+                                Closed a deal with an enterprise client for over 100 licenses before writing the last line of code.
+                                Profitability secured from Day 1.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Skills & <span class="accent">Tech Stack</span></h2>
+                <p class="section-subtitle">A rare hybrid between Tech, Product, and Business.</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-card glass">
+                        <i data-lucide="code-2" class="skill-icon"></i>
+                        <h3>Technical Skills</h3>
+                        <ul class="skill-list">
+                            <li>Languages: PHP, JS, Python, R, HTML, CSS</li>
+                            <li>Software Architecture</li>
+                            <li>RESTful APIs & SQL</li>
+                            <li>Data Infrastructure</li>
+                            <li>AI Model Integration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card glass">
+                        <i data-lucide="brain-circuit" class="skill-icon"></i>
+                        <h3>Business & Management</h3>
+                        <ul class="skill-list">
+                            <li>P&L Management & Turnaround</li>
+                            <li>Product Vision (MVP to Scale)</li>
+                            <li>Team Leadership</li>
+                            <li>B2B & Enterprise Strategy</li>
+                            <li>Resilience & Adaptability</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card glass">
+                        <i data-lucide="wrench" class="skill-icon"></i>
+                        <h3>Tools</h3>
+                        <ul class="skill-list">
+                            <li>Google Cloud Console</li>
+                            <li>Supabase</li>
+                            <li>Server Management</li>
+                            <li>Jira & Linear</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card glass">
+                        <i data-lucide="globe" class="skill-icon"></i>
+                        <h3>Global Mindset</h3>
+                        <ul class="skill-list">
+                            <li><strong>Native:</strong> Spanish & English</li>
+                            <li><strong>Professional:</strong> French</li>
+                            <li><strong>Spoken:</strong> German & Arabic</li>
+                            <li><strong>Lived in:</strong> USA, Spain, Germany</li>
+                            <li>Cross-cultural synergy enthusiast</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">GitHub <span class="accent">Projects</span></h2>
+                <div id="github-projects-grid" class="projects-grid">
+                    <!-- Projects will be loaded here via JS -->
+                    <div class="loading-spinner">Loading projects...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Modal -->
+        <div id="project-modal" class="modal">
+            <div class="modal-content glass">
+                <span class="close-modal">&times;</span>
+                <div id="modal-body">
+                    <!-- README content will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Achievements -->
+        <section id="achievements" class="achievements-section">
+            <div class="container">
+                <h2 class="section-title">Achievements & <span class="accent">Recognition</span></h2>
+                
+                <div class="achievements-grid">
+                    <!-- Professional Milestones (Priority) -->
+                    <div class="achievement-item glass">
+                        <div class="achievement-header">
+                            <i data-lucide="briefcase" class="briefcase-icon"></i>
+                            <h4>Professional Milestones</h4>
+                        </div>
+                        <ul>
+                            <li><strong>Neovinci</strong>: First venture at 17. EdTech Platform during Covid.</li>
+                            <li><strong>BoomTickets</strong>: Founder & CTO building a fully working SaaS for nightclubs.</li>
+                            <li><strong>CoverManager JV</strong>: Leading the CoverManager & CoverExperiences Joint Venture, leading product & operations after the fusion.</li>
+                            <li><strong>CoverExperiences</strong>: From monthly losses to break even (-90k€/mo to 1.4M€ ARR), and increasing synergies between companies.</li>
+                            <li><strong>Data Infrastructure</strong>: Leading CoverManager's data infrastructure project (30k+ restaurants using BigQuery).</li>
+                            <li><strong>CoverAI</strong>: Leading CoverAI, an AI data assistant (5k+ restaurants using it).</li>
+                        </ul>
+                    </div>
+
+                    <!-- Awards -->
+                    <div class="achievement-item glass">
+                        <div class="achievement-header">
+                            <i data-lucide="trophy" class="trophy-icon"></i>
+                            <h4>Awards</h4>
+                        </div>
+                        <ul>
+                            <li><strong>European Innovation Academy Winner (2023)</strong>: International recognition for entrepreneurial excellence.</li>
+                            <li><strong>Santander Explorer Spain Winner</strong>: Benchmark program in startup pre-incubation.</li>
+                            <li><strong>Telefónica Hackathon Finalist</strong>: Highlighted for rapid development capacity and innovation.</li>
+                            <li><strong>University of Seville Contests</strong>: Multiple awards in local entrepreneurship competitions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section id="highlights" class="highlights-section">
+            <div class="container">
+                <h2 class="section-title">Highlights <span class="accent">Gallery</span></h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card glass">
+                        <img src="linkedin.jpg" alt="Public Speaking">
+                        <div class="highlight-overlay">
+                            <h4>Public Speaking</h4>
+                            <p>Courses I give at my university</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card glass">
+                        <img src="eia.jpg" alt="EIA Award 2023">
+                        <div class="highlight-overlay">
+                            <h4>EIA Award 2023</h4>
+                            <p>Winner among 100+ startups</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card glass">
+                        <img src="oktoberfest.png" alt="Data Analysis">
+                        <div class="highlight-overlay">
+                            <h4>Oktoberfest in Germany</h4>
+                            <p>My passion for German culture.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Professional Portfolio. Built with passion and code.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="#" aria-label="Email"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
