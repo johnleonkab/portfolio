@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
     async function fetchProjects() {
         try {
             // Note: This uses the public GitHub API. Rate limits apply (60 req/hr).
-            const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=6`);
+            const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=10`);
             if (!response.ok) {
                 if (response.status === 404) {
                     throw new Error('User not found. Please update GITHUB_USERNAME in script.js');
