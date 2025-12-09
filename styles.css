@@ -851,3 +851,41 @@ h4 {
     margin-left: 1.5rem;
     margin-bottom: 1rem;
 }
+
+/* Builder Section */
+.builder-section {
+    padding: 4rem 0;
+}
+
+.builder-content {
+    padding: 3rem;
+    border-left: 4px solid var(--primary-accent);
+}
+
+.builder-text p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
+.builder-text .lead-text {
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.builder-text strong {
+    color: var(--primary-accent);
+}
+
+@media (max-width: 768px) {
+    .builder-content {
+        padding: 2rem;
+    }
+    .builder-text .lead-text {
+        font-size: 1.2rem;
+    }
+}
